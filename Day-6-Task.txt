@@ -1,6 +1,9 @@
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 Day - 6 - Task - Part - 1
 
 Javascript - Day -6 : ES5 vs ES6 09/04/2023
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 1) Find the culprit 
 
@@ -16,6 +19,8 @@ fixed.html
 </body>
 </html>
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 2) Find the culprit and invoke the alert
 
 fixed.html
@@ -30,6 +35,8 @@ fixed.html
 scripts.js
 
 alert( "I’m JavaScript!");
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 3) Explain the below how it works
 
@@ -53,6 +60,8 @@ alert(3 +
 1
 + 2); //This is multiple line code and its working
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 4) Fix the below to alert Guvi geek
 
 fixed.html
@@ -70,6 +79,8 @@ var fname = "Guvi";
 var lname = "geek"
 admin = fname+(" ")+lname;
 alert( admin ); // "Guvi geek"
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 5) Fix the below to alert hello Guvi geek
 
@@ -89,6 +100,8 @@ lname = "geek"
 let name = "hello"+(" ")+fname+(" ")+lname;
 alert( name );
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 6) Fix the below to alert sum of two numbers
 
 fixed.html
@@ -105,6 +118,8 @@ script.js
 let a = prompt("First number?");
 let b = prompt("Second number?");
 alert(+a + +b);
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 7) If you run the below scritpt you will get “Code is Blasted”
 
@@ -131,6 +146,8 @@ else
   console.log("Diffused") 
 }
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 8) How to get the success in console.
 
 fixed.html
@@ -154,6 +171,8 @@ else
 {
  console.log( "Success" );
 }
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 9) How to get the correct score in console.
 
@@ -180,6 +199,8 @@ if (value === 4) {
       console.log("I couldn't figure out");
 }
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 10) Fix the code to welcome the Employee
 
 fixed.html
@@ -199,6 +220,8 @@ let message = (login == 'Employee') ? 'Greetings'
 :(login == '') ? 'No login' 
 :'';
 console.log(message);
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 11) Fix the code to welcome the boss
 
@@ -224,6 +247,8 @@ else
   message = "Go away";
 }
   console.log(message);
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 12) Fix the code to welcome the boss 
 
@@ -251,6 +276,8 @@ else
 }
   console.log(message);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 13) Fix the code to welcome the boss
 
 fixed.html
@@ -277,6 +304,8 @@ else
 }
 console.log(message);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 14) Change the code to print                
 
 3
@@ -302,6 +331,8 @@ while (i) {
   console.log( i--);
 }
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 15) Change the code to print 1 to 10 in 4 lines
 
 fixed.html
@@ -326,6 +357,8 @@ console.log(x);
 console.log(x);
 console.log(x);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 16) Change the code to print even numbers
 
 fixed.html
@@ -343,6 +376,8 @@ script.js
 for (let num = 2; num <= 20; num += 2) {
   console.log(num)
 }
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 17) Change the code to print all the gifts
 
@@ -364,6 +399,8 @@ for (let i = 0; i < gifts.length; i++) {
 }
 let x = arr.join(",");
 console.log(`Wrapped${" "}${x}${" "}and added a bow!`);
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 18) Fix the code to disarm the bomb.    
 
@@ -387,6 +424,8 @@ while (countdown > 0) {
   }
 }
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 19) Whats the msg printed and why?  
 
 var lemein = "0";
@@ -406,6 +445,8 @@ Output:
 Reason for the Output:
 
 		lemeout is a number and the value is 0. So hello is not printed. lemein is a string and it is not empty. So hi is printed.
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 20) Whats the msg printed and why? Guess you answer before running it.    
 
@@ -427,11 +468,11 @@ Reason for the Output:
 
 		lemeout is a number and the value is 0. So hello is not printed. lemein is a string and it is not empty. So hi is printed.
 
-
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 Day - 6 - Task - Part - 2
 
-
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 1) Write a code to print the numbers in the array
 
@@ -445,6 +486,8 @@ for (var i = 0; i < numsArr.length; i++) {
 }
 console.log(new_string);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 2)Write a code to print the numbers in the array
 
 Output: 1,2,3,4,5,6,7,8,9,10,11
@@ -456,6 +499,8 @@ for (var i = 0; i < numsArr.length; i++) {
  new_string.push(numsArr[i])};
 console.log(new_string.join(","));
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 3) Write a code to print from last to first with spaces (Make sure there is no space after the last element 1)
 
 Output: 11 10 9 8 7 6 5 4 3 2 1
@@ -466,6 +511,8 @@ for (var i = 11; i > 0; i--) {
  new_string.push(i);
 }
 console.log(new_string.join(" ").trim());
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 4) Write a code to replace the array value — If the number is even, replace it with ‘even’.
 
@@ -480,6 +527,8 @@ for (var i = 0; i <numsArr.length; i++) {
 }
 console.log(numsArr);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 5) Write a code to replace the array value — If the index is even, replace it with ‘even’.
 
 Output: [ “even”, 2, “even”, 4, “even”, 6, “even”, 8, “even”, 10, … ]
@@ -493,6 +542,8 @@ for (var i = 0; i <numsArr.length; i++) {
 }
 console.log(numsArr);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 6) Write a code to add all the numbers in the array
 
 Output: 66
@@ -503,6 +554,8 @@ for (var i = 0; i <numsArr.length; i++) {
  sum += numsArr[i]
 }
 console.log(sum);
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 7) Write a code to add the even numbers only
 Output: 30
@@ -516,6 +569,8 @@ for (var i = 0; i <numsArr.length; i++) {
  }
 }
 console.log(sum);
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 8) Write a code to add the even numbers and subract the odd numbers
 
@@ -536,6 +591,8 @@ for (let i = 0; i < numsArr.length; i++)
 }
 console.log(sum);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 9) Write a code to print inner arrays                      
 Output:
 
@@ -550,6 +607,7 @@ var b = numsArr[1];
 console.log("Array(" + a.length + ") " + "["+ a +"]");
 console.log("Array(" + b.length + ") " + "["+ b +"]");
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 10) Write a code to print elements in the inner arrays
 Output: 1234567891011
@@ -564,6 +622,8 @@ for (var i = 0; i < numsArr.length; i++) {
     
 }
 console.log(str_all);
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 11) Write a code to replace the array value — If the index is even, replace it with ‘even’.         
 
@@ -581,6 +641,8 @@ for (var i = 0; i < numsArr.length; i++) {
 }
 console.log(numsArr);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 12) Write a code to print elements in the inner arrays in reverse   									
 Output: 11 10 9 8 7 6 5 4 3 2 1
 
@@ -594,6 +656,8 @@ let rev_arr = merge_arr.reverse().join(" ");
 str = rev_arr;
 }
 console.log(str);
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 13) Write a code to add elements in the inner arrays based on odd or even values
 Output:
@@ -620,11 +684,11 @@ for (var i = 0; i < numsArr.length; i++) {
 console.log(sum_odd);
 console.log(sum_even);
 
-
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 Day - 6 - Task - Part - 3
 
-
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 1) Fix the code to get the largest of three.
 
@@ -641,6 +705,8 @@ aa = (f,s,t) => {
 }
 aa(1,2,3);
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
+
 2) Fix the code to Sum of the digits present in the number
 
 Code:
@@ -655,7 +721,8 @@ for(var i=0;i<n.length;i++){
  }
  return sum;
 }
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 3) Fix the code to Sum of all numbers using IIFE function
 
@@ -670,7 +737,8 @@ const arr = [9,8,5,6,4,3,2,1];
  console.log(sum);
  return sum;
 })();
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 4) Fix the code to gen Title caps.
 
@@ -683,7 +751,8 @@ var ano = function(arro) {
  }
 }
 ano();
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 5) Fix the code to return the Prime numbers
 
@@ -700,7 +769,8 @@ const myPrime=newArray.filter(num=>{
  return num!==1;
 });
 console.log(myPrime);
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 6) Fix the code to sum the number in that array
 
@@ -710,7 +780,8 @@ const num = [10, 20, 30, 40,50,60,70,80,90,100]
 const sum = (a, b) => a + b
 const result = num.reduce(sum)
 console.log(result);
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 7) Fix the code to rotate an array by k times and return rotated array using IIFE function		
 				
@@ -725,7 +796,8 @@ Code:
     }
     console.log(arr);
 })([1, 2, 3, 6, 8, 6, 1, 9, 10, 12, 13],3);
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 8) Fix the code to gen Title caps.
 
@@ -737,7 +809,8 @@ var arr = ["guvi", "geek", "zen", "fullstack"];
  console.log(arr[i][0].toUpperCase() + arr[i].substr(1));
  }
 })();
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 9) print all odd numbers in an array using IIFE function
 
@@ -750,7 +823,8 @@ var arr = [1, 2, 3, 5, 7, 79, 7, 2, 6, 9, 4];
  console.log(arr[i]);
  }}
 })();
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 10) Fix the code to reverse.
 
@@ -760,7 +834,8 @@ Code:
  str1 = str.split("").reverse().join("");
  console.log(str1); 
 })("abcd")
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 11) Fix the code to remove duplicates.														 
 
@@ -772,7 +847,7 @@ var res = function(arr){
  console.log(newArr);
 }(["guvi","geek","guvi","duplicate","geeK"]);
 
-— — — — — — — — — — — — — — — — — — — — — — — — —
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 12) Fix the code to give the below output:													
 
@@ -803,7 +878,8 @@ for(let i = 0; i < array.length; i++)
 }
 }
 console.log(str_all);
-— — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 13) Fix the code to give the below output:
 
@@ -826,7 +902,7 @@ var oddNumbers = function(arr)
 }
 console.log(oddNumbers([12,34,5,6,2,56,6,2,1]));
 
-— — — — — — — — — — — — — — — — — — — — — — — — —
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
 
 14) Fix the code to give the below output:                 												
 
@@ -850,3 +926,5 @@ for(i=0;i<a.length;i++)
 console.log((l)+(m)+(n)+(o));
 }
 aa("1234");
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — 
